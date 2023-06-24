@@ -1,3 +1,22 @@
 h3{
     color: red;
 }
+
+button{
+    color: brown;
+    background-color: blanchedalmond;
+}
+
+body{
+    background-color: black;
+}
+
+#id1{
+    font-size: larger;
+    color:green;
+}
+
+.nav-bar{
+    font-size: 1rem;
+    color:red;
+}
