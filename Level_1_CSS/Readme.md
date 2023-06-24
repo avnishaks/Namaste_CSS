@@ -24,9 +24,8 @@ Synatx:-
 # External CSS
 
 use the css from the external file
-
+<link rel="stylesheet" href="index.css">
 h3{
     color: red;
 }
 
-<link rel="stylesheet" href="index.css">
