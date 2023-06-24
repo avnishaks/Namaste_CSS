@@ -1,0 +1,31 @@
+.demo {
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    background-color: green;
+    text-align: center;
+    padding-top: 10px;
+    margin-bottom: 10px;
+}
+
+.amazon{
+    height: 60px;
+    background-color: #0f1111;
+}
+
+.amazon > #logo{
+    font-size: 25px;
+    color: yellow;
+}
+
+.amazon>a{
+    color: #ffffff;
+    font-size: 15px;
+    margin-right: 150px;
+    text-decoration: none;
+}
+
+
+button{
+    background-color:#f08804;
+}
