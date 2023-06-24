@@ -1,0 +1,50 @@
+.amazon{
+    height: 60px;
+    background-color: #0f1111;
+}
+
+.amazon > #logo{
+    font-size: 25px;
+    color: yellow;
+}
+
+.amazon>a{
+    color: #ffffff;
+    font-size: 15px;
+    margin-right: 150px;
+    text-decoration: none;
+}
+
+
+button{
+    background-color:#f08804;
+}
+
+#content{
+    height: 100px;
+    display: inline-block;
+}
+
+footer{
+    text-align: center;
+}
+
+div{
+    border: 2px solid red;
+    margin: 4px;
+}
+
+.amazon{
+    opacity: 0.5;
+}
+
+#content{
+    background-color: aqua;
+    opacity: 0.5;
+    height: 600px;
+}
+
+.footer{
+    background-color: burlywood;
+    opacity: 0.5;
+}
