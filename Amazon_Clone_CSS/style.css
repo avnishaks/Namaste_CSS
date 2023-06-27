@@ -17,7 +17,7 @@
 
 .nav_logo{
     height: 50px;
-    width: 100px;
+    width: 110px;
 }
 
 .logo{
@@ -30,6 +30,7 @@
 
 .border{
     border: 2px solid transparent;
+    cursor: pointer;
 }
 
 .border:hover{
@@ -58,12 +59,17 @@
 
 /* Search Box */
 
+.nav_search:hover{
+    border: 2px solid orange;
+}
+
 .nav_search{
     width: 800px;
     height: 40px;
     display: flex;
     margin-left: 15px;
     border-radius: 4px;
+    cursor: pointer;
 }
 
 .search-select{
@@ -102,5 +108,103 @@ span{
 
 .nav_second{
     font-size: 0.85rem;
-    font-weight: 80000;
+    font-weight: 800;
+}
+
+/* Nav-Cart */
+
+.nav_cart i{
+    font-size: 30px;
+}
+
+
+/* Pannel */
+
+.panel{
+    height: 40px;
+    background-color: #222f3d;
+    display: flex;
+    color: white;
+    justify-content: space-evenly;
+    padding-top: 10px;
+}
+
+.panel_ops p{
+    display: inline;
+    margin-left: 15px;
+   
+}
+
+.panel_ops{
+    width: 80%;
+}
+
+/* Hero Sections */
+
+.hero-section{
+    background-image: url(Images/hero_image.jpg);
+    height: 350px;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.hero-msg{
+    background-color: white;
+    color: black;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.85rem;
+    width: 80%;
+    margin-bottom: 25px;
+}
+
+.hero-msg a{
+    color: #007185;
+    font-size: 0.85rem;
+    text-decoration: none;
+}
+
+/* Shop Sections */
+
+.shop-section{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #e2e7e6;
+    padding-top: 10px;
+}
+
+.shop-section-2{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #e2e7e6;
+    padding-top: 10px;
+}
+
+.box{
+    border: 2px solid black;
+    height: 400px;
+    width: 23%;
+    background-color: white;
+    padding: 20px 0px 15px;
+    margin-top: 15px;
+}
+
+.box-img{
+    height: 300px;
+    background-size: cover;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.box-content{
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+.box-content p{
+    color:#007185;
 }
